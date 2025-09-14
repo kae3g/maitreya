@@ -20,6 +20,7 @@ MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and 
 ### 1. Clojure Humble UI (Primary GUI)
 - **Purpose**: Primary DAW interface for macOS
 - **Framework**: Clojure with Humble UI for native look and feel
+- **RISC-V Principles**: Simple, orthogonal UI components with minimal complexity
 - **Features**: 
   - macOS Dock Application with custom icon
   - Dedicated "Documents" export folder for work sessions
@@ -31,25 +32,30 @@ MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and 
 
 ### 2. Haskell Project (Functional Core)
 - **Purpose**: Functional core for audio processing and SIEGE expressions
+- **RISC-V Principles**: Minimal, orthogonal function design with formal verification
 - **Derivation**: Translate core Clojure logic into Haskell
 - **Integration**: Orchestrate with Clojure for specific tasks
 
 ### 3. Rust Project (Performance Engine)
 - **Purpose**: Performance-critical audio engine and WebAssembly compilation
+- **RISC-V Principles**: Simple, efficient memory management and lock-free algorithms
 - **Derivation**: Translate performance-sensitive Haskell components
 - **Integration**: High-performance backend for the DAW
 
 ### 4. WebAssembly (WASM)
 - **Purpose**: Compile Rust project to WASM for SPA deployment
+- **RISC-V Principles**: Stack-based virtual machine with minimal instruction set
 - **Deployment**: Serve WASM-compiled SPA within macOS Desktop dock application
 
 ### 5. RONIN Programming Language
 - **Purpose**: Orchestrate the entire b122m faeb operating systems
+- **RISC-V Principles**: Minimal, orthogonal language design with extensible syntax
 - **Integration**: Between Haskell, Clojure, Rust, Kubernetes, Terraform, Markdown
 - **Features**: Code block printing like GitHub, Stack Overflow, Reddit, Medium
 
 ### 6. GIOIA Library Module
 - **Purpose**: Central library named after California poet Dana Gioia
+- **RISC-V Principles**: Simple, modular library design with clear interfaces
 - **Features**: 
   - Speech-to-text transcripts of Dana Gioia's YouTube videos
   - User account management for the DAW
@@ -131,6 +137,12 @@ cargo build --release
 - **SIEGE**: Software for Integer Execution of Garden Expressions
 - **Sovereign Identity**: b122m faeb cryptographic foundation
 - **Gentle Revolution**: Building with care and intention
+- **RISC-V Paradigm**: Reduced Instruction Set Computer architecture principles
+  - **Simplicity**: Minimal, orthogonal instruction set design
+  - **Modularity**: Extensible base ISA with standard extensions
+  - **Open Source**: Royalty-free, open standard architecture
+  - **Performance**: Efficient pipeline design and reduced complexity
+  - **Verifiability**: Formal verification of instruction semantics
 
 ## 📄 License
 
