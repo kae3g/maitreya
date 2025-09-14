@@ -6,7 +6,10 @@
 
 ## 🌟 Integration Philosophy
 
-MAITREYA DAW draws inspiration from REAPER's powerful and flexible workflow while adding the b122m faeb gentle revolution principles. This integration ensures familiarity for existing REAPER users while providing enhanced educational and mathematical features.
+MAITREYA DAW draws inspiration from REAPER's powerful and flexible workflow
+while adding the b122m faeb gentle revolution principles. This integration
+ensures familiarity for existing REAPER users while providing enhanced
+educational and mathematical features.
 
 ## 🎨 Interface Similarities
 
@@ -180,7 +183,8 @@ provideMathematicalFeedback buffer =
 ### 1. REAPER Project Import
 ```rust
 // Import REAPER project files
-pub fn import_reaper_project(file_path: &str) -> Result<MaitreyaProject, ImportError> {
+pub fn import_reaper_project(file_path: &str) -> Result<MaitreyaProject,
+ImportError> {
     let reaper_project = parse_reaper_file(file_path)?;
     
     Ok(MaitreyaProject {
@@ -256,4 +260,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*REAPER Integration: Where familiarity meets innovation in the gentle revolution of audio creation.* 🎛️💙
+*REAPER Integration: Where familiarity meets innovation in the gentle revolution
+of audio creation.* 🎛️💙

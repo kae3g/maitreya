@@ -1,16 +1,22 @@
 # 🌸 GIOIA Library - Poetry-Inspired Audio Processing
 
-> **Named for California Poet Dana Gioia** | **Speech-to-Text Integration** | **User Account Management**
+> **Named for California Poet Dana Gioia** | **Speech-to-Text Integration** |
+**User Account Management**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Mission Statement
 
-GIOIA is the central library module of MAITREYA DAW, named in honor of California poet Dana Gioia. It integrates speech-to-text transcripts of Dana Gioia's YouTube videos with user account management for the DAW, creating a poetry-inspired audio processing environment.
+GIOIA is the central library module of MAITREYA DAW, named in honor of
+California poet Dana Gioia. It integrates speech-to-text transcripts of Dana
+Gioia's YouTube videos with user account management for the DAW, creating a
+poetry-inspired audio processing environment.
 
 ## 🎨 Inspiration: Dana Gioia
 
-Dana Gioia is a celebrated American poet, critic, and former Chairman of the National Endowment for the Arts. His work embodies the gentle precision and mathematical beauty that aligns with the b122m faeb philosophy.
+Dana Gioia is a celebrated American poet, critic, and former Chairman of the
+National Endowment for the Arts. His work embodies the gentle precision and
+mathematical beauty that aligns with the b122m faeb philosophy.
 
 ### Key Works Integration
 - **"Can Poetry Matter?"** - Essays on poetry's role in society
@@ -168,8 +174,10 @@ The Unlicense - a gift of freedom to the world
 
 ## 🙏 Acknowledgments
 
-Special thanks to Dana Gioia for his contributions to American poetry and his inspiring work that forms the philosophical foundation of the GIOIA library.
+Special thanks to Dana Gioia for his contributions to American poetry and his
+inspiring work that forms the philosophical foundation of the GIOIA library.
 
 ---
 
-*GIOIA: Where poetry meets technology in the gentle revolution of audio creation.* 🌸💙
+*GIOIA: Where poetry meets technology in the gentle revolution of audio
+creation.* 🌸💙

@@ -1,12 +1,16 @@
 # 🥷 RONIN Programming Language Specification
 
-> **Orchestration Language** | **b122m faeb System Integration** | **Code Block Printing**
+> **Orchestration Language** | **b122m faeb System Integration** | **Code Block
+Printing**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Mission Statement
 
-RONIN is a specialized orchestration language designed to coordinate the entire b122m faeb operating systems ecosystem. It bridges Haskell, Clojure, Rust, Kubernetes, Terraform, and Markdown with code block printing capabilities inspired by GitHub, Stack Overflow, Reddit, and Medium.
+RONIN is a specialized orchestration language designed to coordinate the entire
+b122m faeb operating systems ecosystem. It bridges Haskell, Clojure, Rust,
+Kubernetes, Terraform, and Markdown with code block printing capabilities
+inspired by GitHub, Stack Overflow, Reddit, and Medium.
 
 ## 🎯 Core Principles
 
@@ -163,4 +167,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*RONIN: The orchestration language that brings peace to the b122m faeb ecosystem.* 🥷💙
+*RONIN: The orchestration language that brings peace to the b122m faeb
+ecosystem.* 🥷💙

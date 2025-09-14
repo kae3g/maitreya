@@ -85,7 +85,8 @@ cargo build
 ### macOS Setup
 ```bash
 # Install Homebrew (if not installed)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install dependencies
 brew install clojure leiningen haskell-stack rust git gnupg
@@ -99,10 +100,12 @@ export JAVA_HOME=/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
 ```bash
 # Ubuntu/Debian
 sudo apt update
-sudo apt install openjdk-11-jdk clojure leiningen haskell-stack rustc cargo git gnupg
+sudo apt install openjdk-11-jdk clojure leiningen haskell-stack rustc cargo git
+gnupg
 
 # CentOS/RHEL
-sudo yum install java-11-openjdk-devel clojure leiningen haskell-stack rust cargo git gnupg
+sudo yum install java-11-openjdk-devel clojure leiningen haskell-stack rust
+cargo git gnupg
 
 # Set Java environment
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
@@ -115,7 +118,8 @@ wsl --install
 
 # In WSL2 Ubuntu:
 sudo apt update
-sudo apt install openjdk-11-jdk clojure leiningen haskell-stack rustc cargo git gnupg
+sudo apt install openjdk-11-jdk clojure leiningen haskell-stack rustc cargo git
+gnupg
 ```
 
 ## 🎵 Audio Setup
@@ -336,8 +340,10 @@ tail -f logs/maitreya.log
 
 ### Learning Resources
 - **README**: https://github.com/kae3g/maitreya/blob/main/README.md
-- **Phase 1 Guide**: https://github.com/kae3g/maitreya/blob/main/docs/development/phase1-clojure.md
-- **Phase 2 Guide**: https://github.com/kae3g/maitreya/blob/main/docs/development/phase2-haskell.md
+- **Phase 1 Guide**:
+https://github.com/kae3g/maitreya/blob/main/docs/development/phase1-clojure.md
+- **Phase 2 Guide**:
+https://github.com/kae3g/maitreya/blob/main/docs/development/phase2-haskell.md
 - **Tutorials**: https://github.com/kae3g/maitreya/blob/main/docs/tutorials/
 
 ## 🔐 Security Considerations
@@ -371,8 +377,9 @@ tail -f logs/maitreya.log
 - **Be Inclusive**: Welcome everyone
 
 ---
-*This setup guide ensures you can get started with MAITREYA quickly and create beautiful music.* 🌸💙
+*This setup guide ensures you can get started with MAITREYA quickly and create
+beautiful music.* 🌸💙
 
-**Generated**: 2025-09-13--2200--PACIFIC-WEST-STANDARD  
+**Generated**: 2025-09-13--2200--PACIFIC-DAYLIGHT-STANDARD  
 **Repository**: https://github.com/kae3g/maitreya  
 **Identity**: b122m faeb internet identity

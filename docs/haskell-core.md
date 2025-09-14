@@ -1,12 +1,15 @@
 # 🔢 Haskell Core - Functional Audio Processing
 
-> **Pure Functional Programming** | **SIEGE Expressions** | **Mathematical Precision**
+> **Pure Functional Programming** | **SIEGE Expressions** | **Mathematical
+Precision**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Overview
 
-The Haskell Core serves as the functional foundation of MAITREYA DAW, providing pure functional programming for audio processing, SIEGE expression evaluation, and mathematical precision in the b122m faeb gentle revolution.
+The Haskell Core serves as the functional foundation of MAITREYA DAW, providing
+pure functional programming for audio processing, SIEGE expression evaluation,
+and mathematical precision in the b122m faeb gentle revolution.
 
 ## 🏗️ Architecture Principles
 
@@ -248,4 +251,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*Haskell Core: Where mathematical precision meets functional elegance in the gentle revolution of audio processing.* 🔢💙
+*Haskell Core: Where mathematical precision meets functional elegance in the
+gentle revolution of audio processing.* 🔢💙

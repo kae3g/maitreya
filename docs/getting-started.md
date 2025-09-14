@@ -1,12 +1,16 @@
 # 🚀 Getting Started with MAITREYA DAW
 
-> **Your Journey into b122m faeb Audio Creation** | **Step-by-Step Setup** | **Gentle Learning Path**
+> **Your Journey into b122m faeb Audio Creation** | **Step-by-Step Setup** |
+**Gentle Learning Path**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Welcome to MAITREYA
 
-MAITREYA DAW is more than just a digital audio workstation—it's a gateway into the b122m faeb gentle revolution of audio creation. Built with mathematical precision and inspired by the poetry of Dana Gioia, MAITREYA combines cutting-edge technology with educational excellence.
+MAITREYA DAW is more than just a digital audio workstation—it's a gateway into
+the b122m faeb gentle revolution of audio creation. Built with mathematical
+precision and inspired by the poetry of Dana Gioia, MAITREYA combines
+cutting-edge technology with educational excellence.
 
 ## 📋 Prerequisites
 
@@ -195,4 +199,5 @@ myAudioConfig = AudioConfig
 
 ---
 
-*Welcome to MAITREYA—where mathematics meets music in the gentle revolution of audio creation.* 🎵💙
+*Welcome to MAITREYA—where mathematics meets music in the gentle revolution of
+audio creation.* 🎵💙

@@ -6,7 +6,10 @@
 
 ## 🌟 Overview
 
-The Rust Engine provides high-performance, memory-safe audio processing for MAITREYA DAW. Built with mathematical precision and compiled to WebAssembly for cross-platform deployment, it serves as the performance-critical backbone of the b122m faeb gentle revolution.
+The Rust Engine provides high-performance, memory-safe audio processing for
+MAITREYA DAW. Built with mathematical precision and compiled to WebAssembly for
+cross-platform deployment, it serves as the performance-critical backbone of the
+b122m faeb gentle revolution.
 
 ## 🏗️ Architecture Principles
 
@@ -149,7 +152,8 @@ pub unsafe fn process_audio_simd(input: &[f32]) -> Vec<f32> {
 /// Generate sine wave with SIEGE integer precision
 pub fn generate_sine_wave(&self, frequency: f32, duration_ms: u32) -> Vec<f32> {
     let samples = (self.config.sample_rate * duration_ms / 1000) as usize;
-    let omega = 2.0 * std::f32::consts::PI * frequency / self.config.sample_rate as f32;
+let omega = 2.0 * std::f32::consts::PI * frequency / self.config.sample_rate as
+f32;
     
     (0..samples)
         .map(|n| {
@@ -322,7 +326,8 @@ mod tests {
 #[test]
 fn test_performance_benchmark() {
     let engine = AudioEngine::new(AudioConfig::default());
-    let large_buffer: Vec<f32> = (0..44100).map(|i| (i as f32 * 0.01).sin()).collect();
+let large_buffer: Vec<f32> = (0..44100).map(|i| (i as f32 *
+0.01).sin()).collect();
     
     let start = std::time::Instant::now();
     let _output = engine.process_audio_buffer(&large_buffer);
@@ -360,4 +365,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*Rust Engine: Where performance meets safety in the gentle revolution of audio processing.* ⚡💙
+*Rust Engine: Where performance meets safety in the gentle revolution of audio
+processing.* ⚡💙

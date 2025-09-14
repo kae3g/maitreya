@@ -12,7 +12,8 @@ import Data.Ratio
 import Control.Monad.State
 
 -- | SIEGE: Software for Integer Execution of Garden Expressions
--- Mathematical expressions for infrastructure growth, security evolution, and cost optimization
+-- Mathematical expressions for infrastructure growth, security evolution, and
+cost optimization
 
 data SIEGEExpression
   = Frequency Double     -- Audio frequency as rational number

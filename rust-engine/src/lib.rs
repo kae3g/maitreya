@@ -1,6 +1,7 @@
 //! MAITREYA DAW - Rust Performance Engine
 //! 
-//! High-performance audio processing engine for the b122m faeb gentle revolution
+//! High-performance audio processing engine for the b122m faeb gentle
+revolution
 //! Built with mathematical precision and integer execution principles
 
 use wasm_bindgen::prelude::*;
@@ -62,9 +63,10 @@ impl AudioEngine {
     }
 
     /// Generate sine wave with SIEGE integer precision
-    pub fn generate_sine_wave(&self, frequency: f32, duration_ms: u32) -> Vec<f32> {
+pub fn generate_sine_wave(&self, frequency: f32, duration_ms: u32) -> Vec<f32> {
         let samples = (self.config.sample_rate * duration_ms / 1000) as usize;
-        let omega = 2.0 * std::f32::consts::PI * frequency / self.config.sample_rate as f32;
+let omega = 2.0 * std::f32::consts::PI * frequency / self.config.sample_rate as
+f32;
         
         (0..samples)
             .map(|n| {
@@ -130,7 +132,7 @@ impl MaitreyaWasm {
 
     /// Generate sine wave and return as JSON
     #[wasm_bindgen]
-    pub fn generate_sine_wave(&self, frequency: f32, duration_ms: u32) -> String {
+pub fn generate_sine_wave(&self, frequency: f32, duration_ms: u32) -> String {
         let samples = self.engine.generate_sine_wave(frequency, duration_ms);
         serde_json::to_string(&samples).unwrap_or_else(|_| "[]".to_string())
     }

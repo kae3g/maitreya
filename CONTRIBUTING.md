@@ -6,7 +6,9 @@
 
 ## 🌟 Welcome to the MAITREYA Community
 
-Thank you for your interest in contributing to MAITREYA DAW! We believe in the power of gentle collaboration and the b122m faeb philosophy of building together with care and intention.
+Thank you for your interest in contributing to MAITREYA DAW! We believe in the
+power of gentle collaboration and the b122m faeb philosophy of building together
+with care and intention.
 
 ## 🎯 How to Contribute
 
@@ -142,7 +144,8 @@ spec = describe "SIEGE Expressions" $ do
 #[test]
 fn test_audio_processing_performance() {
     let processor = MaitreyaAudioProcessor::new();
-    let large_buffer: Vec<f32> = (0..44100).map(|i| (i as f32 * 0.01).sin()).collect();
+let large_buffer: Vec<f32> = (0..44100).map(|i| (i as f32 *
+0.01).sin()).collect();
     
     let start = std::time::Instant::now();
     let _output = processor.process_audio(&large_buffer);
@@ -257,12 +260,15 @@ git push origin feature/your-feature-name
 
 ## 📄 License
 
-By contributing to MAITREYA DAW, you agree that your contributions will be licensed under the Unlicense, making them freely available to the world.
+By contributing to MAITREYA DAW, you agree that your contributions will be
+licensed under the Unlicense, making them freely available to the world.
 
 ## 🙏 Acknowledgments
 
-Thank you for contributing to the b122m faeb gentle revolution! Your contributions help make MAITREYA DAW a better tool for music creators worldwide.
+Thank you for contributing to the b122m faeb gentle revolution! Your
+contributions help make MAITREYA DAW a better tool for music creators worldwide.
 
 ---
 
-*Contributing: Where individual creativity meets collective wisdom in the gentle revolution of audio creation.* 🤝💙
+*Contributing: Where individual creativity meets collective wisdom in the gentle
+revolution of audio creation.* 🤝💙

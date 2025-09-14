@@ -1,12 +1,15 @@
 # 🎨 Clojure UI Guide - MAITREYA DAW Interface
 
-> **Humble UI Integration** | **macOS Native Experience** | **Dark Blue-Green Theme**
+> **Humble UI Integration** | **macOS Native Experience** | **Dark Blue-Green
+Theme**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Overview
 
-The Clojure UI serves as the primary interface for MAITREYA DAW, built with Humble UI for native macOS integration. It provides a REAPER-inspired layout with b122m faeb gentle revolution aesthetics.
+The Clojure UI serves as the primary interface for MAITREYA DAW, built with
+Humble UI for native macOS integration. It provides a REAPER-inspired layout
+with b122m faeb gentle revolution aesthetics.
 
 ## 🎨 Visual Design Philosophy
 
@@ -208,4 +211,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*Clojure UI: Where functional programming meets beautiful design in the gentle revolution of audio creation.* 🎨💙
+*Clojure UI: Where functional programming meets beautiful design in the gentle
+revolution of audio creation.* 🎨💙

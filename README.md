@@ -1,12 +1,17 @@
 # 🎵 MAITREYA: Digital Audio Workstation for b122m faeb System
 
-> **Professional DAW** | **REAPER-Inspired** | **Educational Focus** | **Cross-Platform**
+> **Professional DAW** | **REAPER-Inspired** | **Educational Focus** |
+**Cross-Platform**
 
 ![Parametric Flower](parametric-flower-compressed.png)
 
 ## 🌟 Mission Statement
 
-MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and extends REAPER's functionality within the b122m faeb ecosystem. Built with Clojure Humble UI, progressively derived into Haskell and Rust, and culminating in a WebAssembly-based Single Page Application served within a native macOS dock application.
+MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and
+extends REAPER's functionality within the b122m faeb ecosystem. Built with
+Clojure Humble UI, progressively derived into Haskell and Rust, and culminating
+in a WebAssembly-based Single Page Application served within a native macOS dock
+application.
 
 ## 🎨 Visual Design
 
@@ -20,7 +25,8 @@ MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and 
 ### 1. Clojure Humble UI (Primary GUI)
 - **Purpose**: Primary DAW interface for macOS
 - **Framework**: Clojure with Humble UI for native look and feel
-- **RISC-V Principles**: Simple, orthogonal UI components with minimal complexity
+- **RISC-V Principles**: Simple, orthogonal UI components with minimal
+complexity
 - **Features**: 
   - macOS Dock Application with custom icon
   - Dedicated "Documents" export folder for work sessions
@@ -32,25 +38,30 @@ MAITREYA is a comprehensive Digital Audio Workstation (DAW) that replicates and 
 
 ### 2. Haskell Project (Functional Core)
 - **Purpose**: Functional core for audio processing and SIEGE expressions
-- **RISC-V Principles**: Minimal, orthogonal function design with formal verification
+- **RISC-V Principles**: Minimal, orthogonal function design with formal
+verification
 - **Derivation**: Translate core Clojure logic into Haskell
 - **Integration**: Orchestrate with Clojure for specific tasks
 
 ### 3. Rust Project (Performance Engine)
 - **Purpose**: Performance-critical audio engine and WebAssembly compilation
-- **RISC-V Principles**: Simple, efficient memory management and lock-free algorithms
+- **RISC-V Principles**: Simple, efficient memory management and lock-free
+algorithms
 - **Derivation**: Translate performance-sensitive Haskell components
 - **Integration**: High-performance backend for the DAW
 
 ### 4. WebAssembly (WASM)
 - **Purpose**: Compile Rust project to WASM for SPA deployment
-- **RISC-V Principles**: Stack-based virtual machine with minimal instruction set
+- **RISC-V Principles**: Stack-based virtual machine with minimal instruction
+set
 - **Deployment**: Serve WASM-compiled SPA within macOS Desktop dock application
 
 ### 5. RONIN Programming Language
 - **Purpose**: Orchestrate the entire b122m faeb operating systems
-- **RISC-V Principles**: Minimal, orthogonal language design with extensible syntax
-- **Integration**: Between Haskell, Clojure, Rust, Kubernetes, Terraform, Markdown
+- **RISC-V Principles**: Minimal, orthogonal language design with extensible
+syntax
+- **Integration**: Between Haskell, Clojure, Rust, Kubernetes, Terraform,
+Markdown
 - **Features**: Code block printing like GitHub, Stack Overflow, Reddit, Medium
 
 ### 6. GIOIA Library Module
@@ -150,9 +161,11 @@ The Unlicense - a gift of freedom to the world
 
 ## 🙏 Gratitude
 
-Honoring the open source community, REAPER developers, Dana Gioia's poetry, and all contributors who make this possible.
+Honoring the open source community, REAPER developers, Dana Gioia's poetry, and
+all contributors who make this possible.
 
 ---
 
-*MAITREYA: Where mathematical precision meets creative expression in the gentle revolution of audio production.* 🎵💙
+*MAITREYA: Where mathematical precision meets creative expression in the gentle
+revolution of audio production.* 🎵💙
 

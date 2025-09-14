@@ -6,7 +6,10 @@
 
 ## 🌟 Educational Philosophy
 
-MAITREYA DAW's educational framework is designed for teen music creators, providing a gentle, progressive learning path from basic sine waves to full audio productions. Built on the b122m faeb philosophy of gentle revolution and mathematical precision.
+MAITREYA DAW's educational framework is designed for teen music creators,
+providing a gentle, progressive learning path from basic sine waves to full
+audio productions. Built on the b122m faeb philosophy of gentle revolution and
+mathematical precision.
 
 ## 🎯 Learning Objectives
 
@@ -70,7 +73,7 @@ a4Note = generateSineWave 440 2000
 -- Generate harmonic series
 generateHarmonicSeries :: Int -> Int -> [Double]
 generateHarmonicSeries fundamentalFreq numHarmonics =
-  concatMap (\n -> generateSineWave (fundamentalFreq * n) 2000) [1..numHarmonics]
+concatMap (\n -> generateSineWave (fundamentalFreq * n) 2000) [1..numHarmonics]
 
 -- Create rich tone with 8 harmonics
 richTone = generateHarmonicSeries 220 8
@@ -265,4 +268,5 @@ The Unlicense - a gift of freedom to the world
 
 ---
 
-*Educational Tutorials: Where learning meets creation in the gentle revolution of audio education.* 🎓💙
+*Educational Tutorials: Where learning meets creation in the gentle revolution
+of audio education.* 🎓💙
